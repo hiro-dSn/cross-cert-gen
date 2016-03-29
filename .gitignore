@@ -1,0 +1,4 @@
+# Git ignore file
+
+# Build output
+cross-cert-gen

@@ -1,0 +1,13 @@
+# ------------------------------------------------------------
+#     OpenSSL Configuration for Cross-Certificate
+# ------------------------------------------------------------
+
+[ fake_extensions ]
+basicConstraints        = critical, CA:TRUE
+keyUsage                = keyCertSign, cRLSign
+subjectKeyIdentifier    = hash
+authorityKeyIdentifier  = keyid
+nameConstraints         = critical, permitted;DNS:.example.jp
+
+# ------------------------------------------------------------
+
