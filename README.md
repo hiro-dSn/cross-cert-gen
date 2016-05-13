@@ -42,7 +42,7 @@ cross-cert-gen TARGET_CERT CA_CERT CA_KEY OPENSSL_CONF OUT_CERT
 入力ファイル(各証明書・秘密鍵)はPEMフォーマットである必要があります。
 
 
-## Auther
+## Author
 
  - Hiroshi KIHIRA
 
